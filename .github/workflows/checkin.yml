@@ -17,7 +17,7 @@ jobs:
       # 时间戳格式（可选，默认为 %Y-%m-%d %H:%M:%S）
       TIMESTAMP_FORMAT: ${{ secrets.TIMESTAMP_FORMAT }}
       # 账号配置
-      ANYROUTER_ACCOUNTS: ${{ secrets.ANYROUTER_ACCOUNTS }}
+      ANYROUTER_ACCOUNTS: ${{ secrets.AGENTROUTER_ACCOUNTS }}
       # 是否显示敏感信息
       SHOW_SENSITIVE_INFO: ${{ secrets.SHOW_SENSITIVE_INFO }}
       # 通知配置
