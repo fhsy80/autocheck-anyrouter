@@ -18,7 +18,7 @@ class CheckinService:
 		class URLs:
 			"""URL 配置"""
 
-			BASE = 'https://anyrouter.top'
+			BASE = 'https://agentrouter.org'
 			LOGIN = f'{BASE}/login'
 			API_BASE = f'{BASE}/api'
 			USER_INFO = f'{API_BASE}/user/self'
